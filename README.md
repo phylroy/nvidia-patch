@@ -1,3 +1,7 @@
+# Run this to patch driver by going into unraid console as root. 
+``` bash
+wget https://raw.githubusercontent.com/keylase/nvidia-patch/master/patch.sh  && chmod +x patch.sh && ./patch.sh
+```
 # nvidia-patch
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/keylase/nvidia-patch.svg) ![Latest version](https://img.shields.io/badge/latest%20linux%20driver%20version-435.21-brightgreen.svg)
